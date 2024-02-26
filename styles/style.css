@@ -5,6 +5,8 @@
     --cor-secundaria: #F0F0F0;
     --cor-terciaria: #FF7600;
     --cor-hover: #FFA900;
+    --cor-efeito: #b887fd6d;
+    --cor-fundo: #000000;
 
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'monteserrat', sans-serif;
@@ -36,6 +38,10 @@ body{
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
+}
+
+.cabecalho__menu__link:hover {
+    color: var(--cor-fundo);
 }
 
 .apresentacao {
@@ -93,6 +99,11 @@ body{
             text-decoration: none;
              color: var(--cor-secundaria);
               font-family: var(--fonte-secundaria);
+}
+
+.apresentacao__links__navegacao:hover {
+    background-color: var(--cor-efeito);
+    color: var(--cor-fundo);
 }
 
 .apresentacao__links__link:hover {
